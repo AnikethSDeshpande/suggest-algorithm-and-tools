@@ -1,0 +1,307 @@
+Topic,Functional Requirements,Nonfunctional Requirements,User Interface Requirements,Expected Results,Algorithms,Dataset,Programming Language used,Tools used
+House Price Prediction,"This application is based on machine learning
+techniques and its job is to process a dataset consisting of information about various
+houses and then accept new information about a house and then predict the price of it.","The performance of the application is quite good
+as it gives the appropriate price estimate for a house based on its information.","The user needs to enter the required information
+about the house whose price is to be predicted. This is done through MATLAB.","Estimated appropriate price of a house based on its locality and
+Facilities.",Linear Regression for multiple variables,House dataset,MATLAB,MATLAB
+Anomaly Detection In Ship Trajectory,"The algorithm should be able to predict the anomalistic character of the given coordinates with
+minimal error. The selected algorithm should provide an optimal solution to the given problem.","The algorithm should be time efficient i.e. it should be quick in classifying the data as anomaly or not.
+The output should be error free i.e. the probability of the output being an error should.",,"As an output of an anomaly detection algorithm, two possibilities exist. First, a label can be
+Used as a result indicating whether an instance is an anomaly or not. Second, a score or confidence
+value can be a more informative result indicating the degree of abnormality.",SVM and KNN,"Latitude, Longitude and Anomaly",R,RStudio
+Hand written digits recognition,Consistent performance for minute and bulk data.,"Fast recovery from errors.
+Availability.",MATLAB,Should recognise various styles of digits.,KNN,UCI,MATLAB,MATLAB
+Social Network Ads,"K-nearest neighbour algorithm is used.
+Dataset consists of 5 variables with 400 observations (User ID, Age,
+
+Gender, Estimate Salary, Prediction)
+
+Train Data: 300 observations with 3 variables.
+Testing Data: 100 observations with 3 variables.","Availability- As far as the datasets are available the program works properly ,
+Effective performance- presently works for 400 data observations,
+Maintainability.",Console,"A plot with number of user buying a product ,with coordinates being Estimated Salary and age.",K-Nearest Neighbour,Social Network Ads,R Script,R studio
+music classification based on lyrics,"Hardware:
+Intel core processor i3
+4GB RAM
+
+Software:
+Ubuntu 16
+Idle","Performance: Response within a second.
+Openness: System should be extensible to guarantee that it is useful for a reasonable period of time.
+Failure handling: System components may fail independently of others. so they can handle failure of
+other components .",,"The word cloud visualizations of the most frequent words in the training dataset show an overlap between
+the most frequent words (love, know, come) between the happy and sad songs, based on that we are
+predicting the type of song.",naive bayes,millions sets of songs,python,idle
+Stock Market Prediction,"Hardware Requirements:
+ Core i3 processor
+Software Requirements:
+ Windows
+ Ubuntu
+ R studio","Efficiency
+ Accuracy","Python, R studio",It should predict the price and has to generate error.,Neural Network,link,"Python
+R studio",RSI
+Optical recognition of handwritten digits,"Datasets :MNIST dataset which includes both features set and target dataset
+Parameters: choose k (number of neighbors) to optimize the learning model","Windows 7 and above versions with minimum 4GB RAM, MacOs ,Linux
+Minimum Requirements: 1.5GHz Intel core i3 processor",Python console,"Accuracy with Scaling
+Accuracy without Scaling
+Tuned KNN Parameters: n_neighbors
+Choosing best parameters for testing dataset to predict",K nearest neighbor algorithm,MNIST dataset with 1797 samples,Python,Scikit-learn
+Diabetes Risk Prediction,"People having low, middle, high risk are classified as no risk category, low risk category and high risk category respectively according to the output of our algorithm which will run on R programming platform",The algorithm should not use more time and memory space than necessary. The data entered by user should be correct and result within possible error area. The training data used should not violate the privacy of the patient’s information,,The project aims to classify whether the person is at risk at being Diabetic or not.,Naive Bayes,Pima Indian Diabetes Dataset,R programming,R Studio
+Stock Price prediction using Knn,"Training data, Testing data, R studio packages.","Space/Memory, Accuracy, time for data processing",R Studio.,Predicts stock prices with the given set of training data with an accuracy of 50.76% or above using K-nearest Neighbour algorithm.,K nearest neighbour Algorithm,stocks.csv,R program,R studio
+NLP -BASED ARTIFICIAL INTELLIGENT BOT,"1 The chatbot should be able to learn every new thing given to it.
+2 Any new data given as input should be stored in the dataset and should be able to reply
+to further questions on it.
+3 If the chatbot doesn’t understand the query/input it should ask for more simplified input.
+4 If the chatbot understands the input, it should respond with correct information.
+5 The chatbot should be able to send data in the form of a text message.","1. The chatbot should reply under 30 seconds to user’s queries.
+2. The users have to authenticate themselves before being able to query information from
+chatbot.
+3. The main chatbot logic should be a separate complete package that can be easily
+integrated with other applications.
+4. Talking to the chatbot should feel like talking to a person.","The user interface is simple and easy to interact and the conversation flow includes freestyle
+plain text. The user can access the chatbot application through android device and it will have a
+chat system with the bot. Any requirement of the user can be directly entered into the message
+window.
+On the right side the user message is seen and on the left side the bot replies. This alignment is
+maintained in this bot to make the conversation smooth and interactive.",,Neural networks,Own data sets,Android and Artificial Intelligence Markup Language,Android Studio
+NLP- Based Artificially Intelligent Bot,"1. The chatbot should be able to learn every new thing given to it.
+2. Any new data given as input should be stored in the dataset and should be able to reply to further
+questions on it.
+3. If the chatbot doesn’t understand the query/input it should ask for more simplified input.
+4. If the chatbot understands the input, it should respond with correct information.
+5. The chatbot should be able to send data in the form of a text message.","1. The chatbot should reply under 30 seconds to user’s queries.
+2. The users have to authenticate themselves before being able to query information from chatbot.
+3. The main chatbot logic should be a separate complete package that can be easily integrated with
+other applications.
+4. Talking to the chatbot should feel like talking to a person.","The user interface is simple and easy to interact and the conversation flow includes freestyle plain text.
+The user can access the chatbot application through android device and it will have a chat system with the
+bot. Any requirement of the user can be directly entered into the message window. On the right side the
+user message is seen and on the left side the bot replies. This alignment is maintained in this bot to make
+the conversation smooth and interactive.","We are trying to create a chatbot to conduct a full and maximally logic conversation with a human user,
+utilizing the rich vocabulary of words and phrases and preserving a logic sequence of incoming
+information. Wide knowledge stockpile written in AIML is include, providing spacious range of
+information to be talked about.
+All in all, its a bot,which is very friendly with a wide knowledge in different fields, that can conduct a
+conversation almost with any human being,talking to him about subjects as one wishes.",Neural Network,own dataset,Android and AIML,Android studio and dialogue flow 
+Precting stock price,"1.DatasetCollection
+2.Trainingusingavailabledataset
+3.Testingthedata
+4.Predictingthefuturevalueofstock",Afastprocessingsystem.,"1.Pythonconsole
+2.GraphPlotter","Predictsthestockpricewithaccuracy.Iftrainingdatagivenismore
+theaccuracyispowerful.",Linear regression,Quandl,Python,Pycharm
+Traffic Sign Detection,"Detect,analyze,reduceandverifycollecteddata.","Windows7andaboveversionswithminimum4GBRAM,MacOs,Linux
+MinimumRequirements:1.5GHzIntelcorei3processor",Pythonconsole,,OpenCV ORB,"Keypoints, Descriptors",Python,"OpenCV, numpy"
+Predicting House Price,"1.DataSet
+2.PredictHousePrice",,Console,Itwillpredictthehouseprice,"Neural Networks, Lasso Regression",House Price dataset,Python,Anaconda
+Number Plate Verification,"1. Live detection number plate.
+2. Dataset collection.
+3. Training the machine using datasets.
+4. Recognition of number of the individual vehicle.",1. Fast system processor.,Matlab,"The application detects and recognizes the individual number plate whose dataset has been
+saved to train the machine.",Optical character Recognition Algorithm,3,"C,python",Matlab
+FACE DETECTION AND RECOGNITION,"• Users datasets – Users can add their face datasets using webcam
+• Training – based on user’s given datasets training file generates the .yml file which is used for
+recognition purpose
+• Recognition – It recognize the person face with their identity after being trained with datasets.","Accuracy - It gives 60 to 80 percent accurate results , after being trained with datasets
+• Performance- It gives immediate results.","webcam, command prompt",It gives 60 to 80 percent accurate results.,LBPH (Local Binary Pattern Histogram),person's face dataset,Python,"Anaconda, openCV, Python IDLE"
+Face Detect,"1. Live detection human faces.
+2. Dataset collection.
+3. Training the machine using datasets.
+4. Recognition of faces of the individuals.",1. Fast system processor.,Pycharm text editor and python console.,"The application detects and recognizes the face the individual whose dataset has been saved to train the
+Machine.",Adaboost and Haar cascade classifiers,Grayscale Images,Python,Pycharm community 2018
+Chatbot for College,"Python 2.7
+Flask (Web Framework)
+Bootstrap (HTML,CSS)","Stable Internet Connection
+Web Browser",Web Browser,The chatbot replies to the questions asked by users regarding open electives using the provided dataset.,Naive Bayes Classifier,Data set of elective subject review,"Python, HTML5, CSS3","Flask (Python Web Framework), Pycharm IDE"
+Face Detection ,"Detect,analyze,reduceandverifycollecteddata.","Windows7andaboveversionswithminimum4GBRAM,MacOs,Linux
+MinimumRequirements:1.5GHzIntelcorei3processor",Python console,"Converttheimagecomingfromwebcamtogreyscale
+format.Findoutifanyfacesweredetected.Ifafaceisfoundfindthemidpointofthe
+firstfaceintheframe.Manipulatethesevaluestofindthemidpointoftherectangleand
+Wewillextendthesameforeyedetection.",OpenCV ORB,Co-ordinates ,Python,"numpy, opencv"
+Opinion Mining of Customer Reviews,"R tool is used for implementation. Support Vector machine is the
+algorithm used for implementing the program. Algorithm consist of two modules. One module is
+for training and the other module is for testing.",The code works on all operating system.,Console,"Classify the given customer reviews as positive or negative using
+Support Vector Machine Algorithm.",SVM algorithm,tweets regarding Apple company,R programming,R studio
+Handwritten digit classification,"The Back-Propagation Algorithm must be able to build a Multi-class classifier
+which should classify the various digits accordingly with 95% success rate.","The algorithm should not use more time and memory space than necessary.
+• The data entered by user should be correct and result within possible error area.",,"The project aims to classify various handwritten digits to efficiently read the
+postal zip codes.",Back propagation Algorithm,junyanz,python,octave
+Sentiment Analysis of textual data,"● It should be able to classify the sentiments of the text data accurately and show the classification
+percentage of positive and negative reviews.
+● The word cloud of positive and negative words.","● Data to be analyzed should be available in text format.
+● Performance: Results should be obtained quickly and hence the performance should be good.
+
+● Accuracy: The results should be at least 80% accurate to the actual value.",,,"get_nrc_sentiment
+naive bayes","pang movie data-set
+WhatsApp chat data",R,Rstudio
+Licence plate recognition,"1. Live detection license plate.
+2. Dataset collection.
+3. Training the machine using datasets.
+4. Recognition of license of the individual vehicle.",1. Fast system processor.,Matlab,"The application detects and recognizes the individual license plate whose dataset has been saved to
+train the machine.",Fast Algorithm,"Convert image into binary
+Detecting number plate area",Matlab,"MATLAB 
+Windows 10"
+FACE DECTION IN GIVEN IMAGE,An image consisting of a person.," Matlab software
+ Computer vision system toolbox",NIL,"An image showing the face, mouth, nose etc. of the person in the image.",Viola-Jones,images with human face,matlab,matlab
+credit card fraud detection,"• AccuracyMethod
+• True Positive (TP)
+• False Positive(FP)
+• Training Data",1. efficiently in order to maintain the highest possible level of security.,"1. The dataset has been downgraded in order to contain 30 features (28 anonamised + time + amount).
+2. We will then compare what happens when using resampling and when not using it. We will test this approach using a
+simple logistic regression classifier.
+3. We will evaluate the models by using some of the performance metrics mentioned above.
+4. We will repeat the best resampling/not resampling method, by tuning the parameters in the logistic regression classifier.
+5. We will finally perform classifications model using other classification algorithms.
+6. It contains only numerical input variables which are the result of a PCA transformation.",Graph which indicates the fraud happening every year.,classification ,creditcard.csv,python,Ipython 
+Image Classification using Convolutional Neural Networks,"Training data , Standard Resolution , Pixels Height , Pixels Width,
+Drone/System to process a single picture.","Time for data processing, Space/Memory, Output information format, Accuracy.","Python Console/GUI application, Android application & web application","Classifies images with the given set of training data with an accuracy of 78% or above using
+Convolutional Neural Network(CNN).c",Deep Learning Algorithms,Images,Python,Tensorflow
+Feature Selection in Machine Learning,"1. Imputing data of 3 datasets using library mice.
+2. Principle component analysis using plotting theme (ggplot 2) of 3 data sets.
+3. Feature importance: Using Random Forest selecting important featuresfrom 3 data set using package
+Carrot.
+4. Removing highly co related features. Hence removing redundant data.
+5. Selecting features through recursive feature elimination (RFE).
+6. Optimizing data using genetic algorithm (GA).
+
+7. Comparison of 3 data set with different features using Random forest.
+8. Measuring accuracy, Kappa, precision& sensitivity and specificity.","1. Performance Requirements: The system requires heavy processing as the algorithms use a lot of
+processor time. Since the algorithm is completely dependent on the processing time its necessary that
+the machine used to compute the data has a heavy processor that can plot all the graphs accurately
+with less waiting time.
+2. Safety Requirements: One should ensure that electric supply to the machine is sufficient in case of
+power failure as the loss of power can result in critical data loss and computation.
+3. Security Requirements: One should ensure that the datasets used are to be used for computational
+purposes only. One should avoid misuse of the datasets for own benefits.
+4. Robustness: The system on running into errors should show the errors accurately and shouldn’t
+provide false errors due to mismatch of the packages as the packages in windows and mac are of
+different format.",Rstudio,"As expected from PCA of sample classes, which showed that the two classes recur/ non-recur did not cluster
+well, Random Forest models of dataset 3 had much lower prediction accuracy than models of datasets 1 and 2.
+The correlation method operates regardless of feature importance. E.g. in dataset 1, the features with the
+highest importance were also flagged as highly correlated. Correlation models performed worst in all three
+datasets. RFE and GA tend to include features with high importance, but feature importance alone is not a
+good indicator for whether several features will work well in combination when predicting an outcome.
+Dataset 1 was small with only 9 features; here, removing highly correlated features was the least successful
+selection method. RFE and GA both improved the predictions compared to no feature selection, while GA
+performed best. Dataset 2 with its 30 original features produced the best models with the GA. And in dataset 3,
+which had lower overall accuracy, different feature selection methods did not have a strong influence.","Random Forest, Recursive Feature Elimination, Genetic Algorithm, Corrlelation",Wisconsin Madison Breast Cancer Datasets,R Programming ,R Studio
+Real-Time Sentiment Analysis of Twitter Data," The system requires the user to have a valid twitter account and log in.
+ The system shall perform sentiment analysis on the textual data obtained from twitter.
+ The system shall classify each sentiment as either positive, negative or neutral."," Online data to be analyzed should be available in text format.
+ Performance: Results should be obtained quickly and hence the performance should be
+good.
+ Accuracy: The results should be at least 85% accurate to the actual value.",,"The tweets will be classified into positive, negative and neutral, along with a
+Graph.",Natural Language Processing,Real-Time Twitter data,Python,"Anaconda 5.1,Python,Twitter"
+Diabetes Risk Prediction,"People having low, middle, high risk are classified as no risk
+category, low risk category and high risk category respectively according to the output of our algorithm
+which will run on R programming platform","The algorithm should not use more time and memory space than
+necessary. The data entered by user should be correct and result within
+possible error area. The training data used should not violate the privacy of the patient’s information",,"The project aims to classify whether the person is at risk at being
+Diabetic or not.",Naive Bayes,dia.csv,R,R
+Sentiment Analysis on text(Twitter),"The system requires the following functional requirements to work for the
+problem statement:
+a) TextBlob - For Natural Language Processing of the tweets.
+b) Tweepy - For functioning the Twitter API with our Python script.
+c) Matplotlib - For the graphical data representation.
+The entire system runs on the standard Python 3.6.5 distribution and it’s supporting modules/libraries.","The system requires the following functional requirements to work for
+the problem statement:
+a) Proper internet connection.
+b) Enough system memory to execute the script.",Python Console / CMD prompt,"The system should display the percentage of the classified category of
+tweets, namely - Weakly Positive, Strongly Positive, Weakly Negative, Strongly Negative, Neutral. And it
+should display a pie chart marking out the same.","Natural Language Proccessing -> Naive Bayes, Decision trees.",Live Tweets on twitter,Python,"TextBlob , Tweepy , Twitter Developer's API"
+Digit Recognition,"1) Images of digits were taken from a variety of scanned documents, normalized in size and
+centered. This makes it an excellent dataset for evaluating models, allowing the developer to
+focus on the machine learning with very little data cleaning or preparation required.
+2) There are training patterns and text patterns which make an excellent dataset for evaluating
+
+models, allowing the developer to focus on the machine learning with very little data cleaning
+or preparation required.
+3) Classification is carried out for the test patterns and the classification accuracy is reported.","1. Performance Requirements: The system requires heavy processing as the algorithms use a
+lot of processor time. Since the algorithm is completely dependent on the processing time its
+necessary that the machine used to compute the data has a heavy processor that can plot all
+the graphs accurately with less waiting time.
+2. Safety Requirements: One should ensure that electric supply to the machine is sufficient in
+case of power failure as the loss of power can result in critical data loss and computation.
+3. Security Requirements: One should ensure that the datasets used are to be used for
+computational purposes only. One should avoid misuse of the datasets for own benefits.
+4. Robustness: The system on running into errors should show the errors accurately and
+shouldn’t provide false errors due to mismatch of the packages.",,"The goal was to recognize digits in the images. The results demonstrated pattern recognition
+effectively. Predicted results were accomplished successfully.","Neural Network, Support Vector Machine, K-Nearest Neighbour","Images and data sets from the MNIST dataset:
+Dataset 1 to train the program: To predict the digit from the image
+Dataset 2 to test the program:  To predict the digit from the image",R programming language,"R Studio, EBImage packages, Shiny Application"
+Movie recommendation system,"Searchingandfindingasuitabledatasetfortheprogram
+Inputtheattributesfromdatasetsofmovies.
+Evaluatingtheresultsbypredictingandanalysingpatternsanddataofusersmoviehistory.","Speed-Movierecommendationsshouldtakelesstime.
+Precision-Theresultshouldsatisfytheuser.",,,K-nearest algorithm & collaborative filtering,"""The dataset used was from MovieLens"".
+https://www.google.co.in/amp/s/muffynomster.wordpress.com/2015/06/07/building-a-movie-recommendation-engine-with-r/amp/",R,R-STUDIO
+Anomaly Detection In Ship Trajectory,"[1] The algorithm should be able to predict the anomalistic character of the given coordinates with
+minimal error.
+[2] The selected algorithm should provide an optimal solution to the given problem.","[1] The algorithm should be time efficient i.e. it should be quick in classifying the data as anomaly or not.
+[2] The output should be error free i.e. the probability of the output being an error should.",,"As an output of an anomaly detection algorithm, two possibilities exist. First, a label can be
+Used as a result indicating whether an instance is an anomaly or not. Second, a score or confidence
+value can be a more informative result indicating the degree of abnormality.","k nearest neighbor, Support Vector Machine and Neural Networks",tr_server_data,R,"R, R studio"
+Flight Delay Prediction," Identification of the required datasets for the program and download it.
+ Input the attributes from datasets of flight delay issues.
+ Evaluating the results by predicting and analyzing patterns and trends in delays that happens at
+airport.
+ This system explores what factors influence the occurrence of flight delays along with the intensity
+of the delays. Our method is based on archived data at major airports in current flight information
+Systems."," Security – The data should be available to specified authority.
+ Accuracy – The result should be accurate to the actual value.
+
+ Performance – Results should be obtained quickly and hence the performance should be good.
+ Reliability - The System Should be reliable i.e the measuring procedure yields the same results on
+repeated trials.","By analyzing the different parameters and patterns a graph is generated.
+Based on the graphs various assumptions can be made.","The expected result is to identify and analyze patterns and trends in flight
+delay issues happening at the airports using machine learning algorithms like weighted multiple linear
+Regression.","Naive Bayes, Random Forest and K-map",Flights.csv,R,R studio
+Face detection,"Detect,analyze,reduceandverifycollecteddata.","Windows7andaboveversionswithminimum4GBRAM,MacOs,Linux
+MinimumRequirements:1.5GHzIntelcorei3processor",Pythonconsole,"Converttheimagecomingfromwebcamtogreyscale
+format.Findoutifanyfacesweredetected.Ifafaceisfoundfindthemidpointofthe
+firstfaceintheframe.Manipulatethesevaluestofindthemidpointoftherectangleand
+Wewillextendthesameforeyedetection.",Viola John's algorithm,Images,R,Matlab
+IMDB Movie Rating Prediction,"1. Dataset collection.
+2. Training the machine using datasets.
+3. SVM algorithm","1. Availability- As far as the datasets are available the program works properly ,
+2. Effective performance- presently works for 400 data observations,
+Maintainability.",Console.,"To obtain the IMDB rating for a movie i.e , to find the success rate of the movie based on the information
+provided such as ""IMDb_score"", ""director_facebook_likes"", ""duration"", ""actor_1_facebook_likes"",
+""actor_2_facebook_likes"", ""actor_3_facebook_likes"", ""facenumber_in_poster"", ""budget"".",Support Vector Machine(SVM) Algorithm,movie_metadata.csv,R,R-tool
+Rainfall Prediction," It should able to predict the rainfall that are taking place in year by year.
+ Technique used for the prediction are Gradient Descent Function and Linear Regression
+Algorithm.","Non Functional Requirements describe the constraints on development process and standards to be
+followed in development process.
+ Speed : on mentioned hardware requirement one simulation should run in around 5 minutes.
+ Reliability : simulation results should not vary drastically.
+ Performance Requirements: The system requires heavy processing as the algorithms use a lot
+of processor time.
+ Security Requirements: One should ensure that the datasets used are to be used for
+computational purposes only. One should avoid misuse of the datasets for own benefits.",,"The trained model is tested with the use of 2001-2013 test data and the test
+result is compared to the actual rainfall amount.2004 monthly rainfall prediction amount compared with
+actual rainfall amount.",Simple Linear Regression,Amount of rainfall in Chikmaglur from year 1900 to 2010,Python,python 5
+Crime Data Analysis," Identification of the required datasets for the program and download.
+ Input the attributes from datasets of criminal issues.
+ Evaluating the results by predicting and analyzing patterns and trends in crime that happens in
+particular area."," Security – The data should be available to specified authority.
+ Accuracy – The result should be accurate to the actual value.
+ Performance – Results should be obtained quickly and hence the performance should be good.
+ Reliability - The System Should be reliable i.e the measuring procedure yields the same results
+on repeated trials .",,"The expected result is to identify and analyze patterns and trends in crime
+happening in particular area using machine learning algorithms ( Neural Network ) .",Cluster,https://www.kaggle.com/currie32/crimes-in-chicago/data,Machine Learning,R and R Studio
+Rcommendation of Top Reviewed Movies, It should be able to recommend the hotels a user might be interested in.," Accuracy: The results should be at least 90% accurate to the actual value.
+ Performance: Results should be obtained quickly and hence the performance should be good.",,The analysis should be able to recommend the different hotels a user might be interested in.,"Random Forest Algorithm, Decision trees Algorithm ",IMDB movie Reviews dataset from kaggle.com,Python language,Python 2.7
+Exploring Crafts Beer with KNN,"1. Data Set
+2. Line plot of different styles of beers
+3. Bar plot of mean alcohol content of different styles.",,Console,It will predict the style of beer,KNN,beers.csv and breweries.csv,Python,Anaconda
+RECOMMENDATION OF TOP REVIEWED MOVIES," It should be able to recommend the top reviewed movies for a user.
+ It uses random forest and decision trees algorithms."," Accuracy: The results should be more than 90% accurate to the actual value.
+ Performance: Results should be obtained quickly and hence the performance should be good.",,The analysis should be able to recommend the different movies a user might be interested in.,Random forest and Decision trees algorithm,IMDB Movie Review Data Set,Python,Python 2.7
+TOXIC COMMENT CLASSIFICATION,"• It should be able to build a multi-headed model that’s capable of detecting different types oof
+toxicity like threats, obscenity, insults, and identity-based hate.","• Accuracy: The model developed must be better than Perspective’s current models.
+• Visualization: Various comments that are classified as toxic may be displayed using
+Visualization.",,"Development to the model will hopefully help online discussion become more productive and
+Respectful.",CART,Train and Test data downloaded from kaggle.com,R Programming Language,R Studio
+Fake currency detection using Image Processing.,"1. Scanning of Currency notes
+2. Comparison of the features
+3. Detection of counterfeit notes",1. Efficient Processor,Matlab IDE GUI,"The application detects the counterfeit currency based on the presence
+of the security thread.",Segmentation algorithm,Pictures of real and fake currency notes,Matlab,Matlab R2013a
